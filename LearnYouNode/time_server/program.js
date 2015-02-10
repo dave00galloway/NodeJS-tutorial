@@ -9,7 +9,7 @@ function padZero(string,length){
     var server = net.createServer(function (socket) {
       // socket handling logic
     	var date = new Date();
-    	console.log(date);
+    	//console.log(date);
     	var string = date.getFullYear() + '-' +
     				padZero((date.getMonth() +1) .toString(), 2) + '-' + // another learnyounode bug?
     				padZero(date.getDate().toString(),2) +' ' +
